@@ -1,0 +1,128 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    /* background: linear-gradient(50deg, #76f1d3 ,#e58f8f); */
+    /* background: linear-gradient(50deg, #D8B5FF , #1EAE98); */
+    /* background: linear-gradient(50deg, #C6EA8D ,#FE90AF); */
+    background: linear-gradient(50deg, #FF61D2 , #6FD6FF);
+    background-attachment: fixed;
+    height: 100vh;
+
+    display: flex;
+    /* justify-content :center; */
+    align-items:center ;
+    flex-direction: column;
+    
+}
+
+.note-icon {
+    
+    margin-top: 3%;
+    display: flex;
+    align-items: center;
+}
+
+.note-icon h2{
+
+    /* font-family: 'Pangolin', cursive; */
+    /* font-family: 'Indie Flower', cursive; */
+    /* font-family: 'Gloria Hallelujah', cursive; */
+    /* font-family: 'Rock Salt', cursive; */
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-size: 40px;
+    /* font-weight: bolder; */
+    color:rgb(35, 33, 33);
+
+}
+
+.create-notes{
+    margin-top: 13px;
+    /* width: 200px; */
+
+    
+}
+
+.create-notes span{
+    /* font-family: 'Kaushan Script', cursive; */
+    font-family: "Poppins", sans-serif;
+    
+}
+
+.create-notes img{
+    height: 20x;
+    width:20px;
+    padding: 2px;
+    
+    margin-right:-8px;
+    margin-left: -2px;
+}
+
+
+#add-notes{
+    display: flex;
+    justify-content: space-evenly;
+    /* justify-content: center; */
+    align-items: center;
+    width: 150px;
+    height: 40px;
+    border-radius: 40px;
+    font-size: 14px;
+    /* font-weight: 550; */
+    color: #dbdada;
+     
+
+    background: linear-gradient(5deg, #42037a, #8f19f6 );
+
+    outline:0;
+    border: 0;
+    cursor:pointer;
+}
+
+
+.note-icon img{
+    height: 84x;
+    width:84px;
+}
+
+
+.input-box{
+    position: relative;
+    /* width:100%;
+    max-width: 500px; */
+
+    width:500px;
+
+
+    min-height: 150px;
+    /* background: #fff;
+    color:#333; */
+
+    /* background: #dfe9ec4e; */
+    background: linear-gradient(340deg, rgba(171, 199, 191, 0.353), rgba(252, 250, 250, 0.2));
+    color:#4a4747;
+    box-shadow: 2px 2px 20px rgba(52, 51, 51, 0.49) ;
+
+
+
+
+    padding: 20px;
+    margin: 20px 0;
+    outline: none;
+    border-radius: 8px;
+
+
+    /* display: none; */
+}
+
+.input-box img{
+    width: 25px;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    cursor:pointer;
+}
